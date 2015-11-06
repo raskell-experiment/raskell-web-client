@@ -2,6 +2,10 @@
   'use strict';
 
   angular
-    .module('raskellclient', ['ngSanitize', 'ui.router', 'toastr']);
+    .module('raskellclient', [
+      'ngSanitize',
+      'ui.router',
+      'toastr'
+      ]);
 
 })();
